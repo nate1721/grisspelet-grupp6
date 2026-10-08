@@ -14,9 +14,19 @@ let isPlaying = true;      // Blir false när någon har vunnit
 
 
 // ---------- 2. Element i DOM:en ----------
+// ---------- 2. Element i DOM:en ----------
 
+const player0Panel = document.querySelector(".player-0-panel");
+const player1Panel = document.querySelector(".player-1-panel");
 
+const name0 = document.querySelector("#name-0");
+const name1 = document.querySelector("#name-1");
 
+const score0 = document.querySelector("#score-0");
+const score1 = document.querySelector("#score-1");
+const current0 = document.querySelector("#current-0");
+const current1 = document.querySelector("#current-1");
+const dice = document.querySelector("#dice-1");
 // ---------- 3. Funktioner ----------
 
 // SPEL-1: Startar ett nytt spel
